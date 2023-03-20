@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY ./target/mvndemoproject-1.0-SNAPSHOT.jar ./
+COPY ./target/calculatorproject-1.0-SNAPSHOT.jar ./
 WORKDIR ./
-CMD ["java", "-jar", "mvndemoproject-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "calculatorproject-1.0-SNAPSHOT.jar"]
