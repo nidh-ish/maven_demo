@@ -1,4 +1,45 @@
-2023-03-21 15:45:08.605 [main] INFO  Calculator - Output of square root of 25 is: 5.0
-2023-03-21 15:45:08.613 [main] INFO  Calculator - Output of factorial of 5 is: 120
-2023-03-21 15:45:08.618 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
-2023-03-21 15:45:08.650 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 15:51:34.996 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 15:51:35.003 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 15:51:35.008 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 15:51:35.030 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 21:25:00.767 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 21:25:00.935 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 21:25:01.000 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 21:25:01.026 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 21:25:01.168 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 21:26:47.843 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 21:26:47.885 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 21:26:47.937 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 21:26:48.019 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:02:14.282 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:02:14.292 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:02:14.297 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:02:14.333 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:02:14.338 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:02:14.359 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:02:14.359 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:02:14.359 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:09:10.214 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:09:10.228 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:09:10.234 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:09:10.263 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:09:10.265 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:09:10.265 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:09:10.266 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:09:10.266 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:14:17.455 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:14:17.482 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:14:17.489 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:14:17.537 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 22:14:17.538 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 22:14:17.541 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 22:14:17.541 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 22:14:17.541 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 23:27:19.934 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 23:27:19.949 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 23:27:19.955 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 23:27:19.967 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
+2023-03-21 23:27:19.974 [main] INFO  Calculator - Output of square root of 25 is: 5.0
+2023-03-21 23:27:19.975 [main] INFO  Calculator - Output of factorial of 5 is: 120
+2023-03-21 23:27:19.978 [main] INFO  Calculator - Output of natural logarithm of 10.0 is: 2.302585092994046
+2023-03-21 23:27:19.978 [main] INFO  Calculator - Output of 5.0 to the power of 2.0 is: 25.0
