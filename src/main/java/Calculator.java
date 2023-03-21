@@ -1,9 +1,16 @@
 import java.util.Scanner;
 import java.lang.Math;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator {
+
+	private static Logger log = LogManager.getLogger(Calculator.class);
+
 	public double squareRoot(int x) {
-		return Math.sqrt(x);
+		double result = Math.sqrt(x);
+		log.info("Output of square root of " + x + " is: " + result);
+		return result;
 	}
 
 	public long factorial(int x) {
@@ -11,15 +18,20 @@ public class Calculator {
 		for(int i = 1; i <= x; i++) {
 			result = result * i;
 		}
+		log.info("Output of factorial of " + x + " is: " + result);
 		return result;
 	}
 
 	public double naturalLog(double x) {
-		return Math.log(x);
+		double result = Math.log(x);
+		log.info("Output of natural logarithm of " + x + " is: " + result);
+		return result;
 	}
 
 	public double power(double x, double b) {
-		return Math.pow(x, b);
+		double result = Math.pow(x, b);
+		log.info("Output of " + x + " to the power of " + b + " is: " + result);
+		return result;
 	}
 	
 	public static void main(String[] args) {
