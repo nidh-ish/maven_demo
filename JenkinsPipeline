@@ -1,0 +1,48 @@
+pipeline{
+    agent any
+    
+    environment {
+        registry ="nidhishbhimrajka/spe-mini-project"
+        registryCredential ='DockerHub'
+        dockerImage = ''
+    }
+    
+    stages{
+        stage('Clone git'){
+            steps{
+                git url: 'https://github.com/nidh-ish/spe-mini-project.git', branch: 'main'
+            }
+        }
+        stage('Maven Build'){
+            steps{
+                sh "mvn clean install"
+            }
+            post {
+                success {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
+        stage('Building docker image') {
+            steps{
+                script{
+                    dockerImage = docker.build registry + ":latest"
+                }
+            }
+        }
+        stage('Deploying docker image') {
+            steps{
+                script{
+                    docker.withRegistry( '', registryCredential ) {
+                        dockerImage.push()
+                    }
+                }
+            }
+        }
+        stage('Ansible Deploy'){
+            steps{
+                ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'Inventory', playbook: 'playbook.yml'
+            }
+        }
+    }
+}
